@@ -1,5 +1,5 @@
 {
-  "proxy": "https://my-portfolio-zermedaymn-qy35nsex5-medaymzers-projects.vercel.app/",
+  "proxy": "https://my-portfolio-zermedaymn.vercel.app/api/projects",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
