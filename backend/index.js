@@ -2,9 +2,13 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const projectsRoutes = require('./routes/projects')
+const cors = require('cors');
 //express app
 const app = express()
 //midlleware
+app.use(cors({
+  origin: 'https://my-portfolio-zermedaymen.vercel.app',
+}));
 app.use(express.json())
 app.use((req,res,next)=>{
     console.log(req.path,req.method)
