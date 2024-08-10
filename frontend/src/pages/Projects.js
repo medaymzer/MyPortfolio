@@ -24,14 +24,17 @@ const Projects = () => {
         const fetchProjects = async () =>{
             try{
             const response = await fetch('/api/projects')
+                console.log("error1")
             const json = await response.json()
+                console.log("error2")
             if (response.ok){
+                console.log("okokokok")
                 setProjects(json)
                 localStorage.setItem('exampleData', JSON.stringify(json));
                 console.log("okok")
             }
             }catch(error){
-                console.log(error)
+                console.log(error.json())
             }finally{
                 setLoading(false)
             }
