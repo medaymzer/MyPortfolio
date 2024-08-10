@@ -31,7 +31,7 @@ const Projects = () => {
                 console.log("okok")
             }
             }catch(error){
-                console.log(error)
+                console.log("error")
             }finally{
                 setLoading(false)
             }
