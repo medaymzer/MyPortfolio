@@ -28,6 +28,7 @@ const Projects = () => {
             const json = await response.json()
                 console.log("error2")
             if (response.ok){
+                console.log("okokokok")
                 setProjects(json)
                 localStorage.setItem('exampleData', JSON.stringify(json));
                 console.log("okok")
