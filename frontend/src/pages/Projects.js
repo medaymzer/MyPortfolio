@@ -24,9 +24,9 @@ const Projects = () => {
         const fetchProjects = async () =>{
             try{
             const response = await fetch('/api/projects')
-                console.log("error1")
+                console.log(response)
             const json = await response.json()
-                console.log("error2")
+                console.log(json)
             if (response.ok){
                 console.log("okokokok")
                 setProjects(json)
