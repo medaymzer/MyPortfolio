@@ -8,8 +8,10 @@ import { motion } from 'framer-motion';
 
 const Project = ({project}) => { 
         const [hover , setHover] = useState(true)
+        const [proj,setProj]=useState(null)
+       // setProj(project)
     return(
-        <Link to={"/api/projects/"+project._id} id='project1'>
+        <Link to={"/api/projects/"+project.id} id='project1'>
         <motion.div 
         className='project'
         initial={{ translateY : "20px" , opacity : 0 }}
