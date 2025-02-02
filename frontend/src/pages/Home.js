@@ -22,7 +22,7 @@ const Home = () => {
                 <div className="home_text_text">
                 <h2>Salut</h2>
                 <h4>Qui suis-je ?</h4>
-                <p>Je suis passionné(e) par le développement web et je m'efforce de créer des expériences en ligne à la fois élégantes et fonctionnelles. Mon objectif est de fournir des solutions numériques innovantes qui répondent aux besoins de mes clients. Ce site est l'endroit idéal pour en apprendre davantage sur mes compétences et mes réalisations.</p>
+                <p>Je suis passionné par le développement web et je m'efforce de créer des expériences en ligne à la fois élégantes et fonctionnelles. Mon objectif est de fournir des solutions numériques innovantes qui répondent aux besoins de mes clients. Ce site est l'endroit idéal pour en apprendre davantage sur mes compétences et mes réalisations.</p>
                 </div>
                 <div className="home_text_btns">
                 <motion.div 
