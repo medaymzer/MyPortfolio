@@ -23,16 +23,7 @@ const Cv = () => {
                 <div className="cv_exp_exp">
                     <div className='exp'>
                         <div className="exp_time">
-                            <h5>2022 - 2023</h5>
-                        </div>
-                        <div className="exp_detail">
-                            <h4>Développeur Web Front End</h4>
-                            <p>EURL TECSAS <br/> J'ai été chargé de développer le site web vitrine de la société en utilisant les technologie :  React, Nodejs, HTML5, Sass . Ainsi que d'autres tache informatique quotidienne (maintenance et gestion de logiciels, serveur et du réseau )</p>
-                        </div>
-                    </div>
-                    <div className='exp'>
-                        <div className="exp_time">
-                            <h5>2023 - 2023</h5>
+                            <h5>2021 - 2022</h5>
                         </div>
                         <div className="exp_detail">
                             <h4>Développeur Web Full Stack</h4>
@@ -41,7 +32,17 @@ const Cv = () => {
                     </div>
                     <div className='exp'>
                         <div className="exp_time">
-                            <h5>2023 - 2024</h5>
+                            <h5>2022 - 2022</h5>
+                        </div>
+                        <div className="exp_detail">
+                            <h4>Développeur Web Front End</h4>
+                            <p>EURL TECSAS <br/> J'ai été chargé de développer le site web vitrine de la société en utilisant les technologie :  React, Nodejs, HTML5, Sass . Ainsi que d'autres tache informatique quotidienne (maintenance et gestion de logiciels, serveur et du réseau )</p>
+                        </div>
+                    </div>
+                    
+                    <div className='exp'>
+                        <div className="exp_time">
+                            <h5>2022 - 2023</h5>
                         </div>
                         <div className="exp_detail">
                             <h4>Développeur Web Full Stack et de logiciels</h4>
@@ -88,7 +89,7 @@ const Cv = () => {
                         </div>
                         <div className="exp_detail">
                             <h4></h4>
-                            <p>Je suis un(e) développeur(se) web passionné(é) par la création d'expériences numériques innovantes. Mon rôle consiste à concevoir et développer des applications web performantes et intuitives pour répondre aux besoins des utilisateurs. pour cela j'avais envie de maitriser le MERN Stack 'Mongodb, Expressjs, React, Nodejs' , mais au fil des anneés j'ai acquis un bon niveau en developement native dans des language tel que Python ou java, je pratique aussi le design UI/UX des sites web. Ma langue natale est l'arabe mais je maitrise tout aussi bien le francais et l'anglais  </p>
+                            <p>Je suis un développeur web passionné par la création d'expériences numériques innovantes. Mon rôle consiste à concevoir et développer des applications web performantes et intuitives pour répondre aux besoins des utilisateurs. pour cela j'avais envie de maitriser le MERN Stack 'Mongodb, Expressjs, React, Nodejs' , mais au fil des anneés j'ai acquis un bon niveau en developement native dans des language tel que Python ou java, je pratique aussi le design UI/UX des sites web. Ma langue natale est l'arabe mais je maitrise tout aussi bien le francais et l'anglais  </p>
                         </div>
                     </div>
                     
